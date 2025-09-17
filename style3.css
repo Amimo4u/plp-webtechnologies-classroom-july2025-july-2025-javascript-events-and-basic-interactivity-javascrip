@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Form container */
+form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 350px;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Labels & Inputs */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #0078d7;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #005a9e;
+}
+
+/* Feedback message */
+#formMsg {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d9534f; /* red for error */
+}
